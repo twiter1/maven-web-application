@@ -95,7 +95,7 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://172.31.5.96/repository/twitter-webreleases/</url>
+	      <url>http://172.31.5.96:8181/repository/twitter-webreleases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
