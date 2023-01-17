@@ -103,8 +103,12 @@
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
 	      <url>http://http://172.31.5.96:8181/repository/twitter-fesnapshot/</url>
 	    </snapshotRepository>
-	    
-	</distributionManagement>
+	   <repository>
+	      <id>nexus</id>
+	      <name>Landmark Technologies Releases Nexus Repository</name>
+	      <url>http://http://172.31.5.96:8181/repository/twitter-webreleases/</url>
+	    </repository>
+       </distributionManagement>
 	
 	<build>
 		<finalName>tesla</finalName>
